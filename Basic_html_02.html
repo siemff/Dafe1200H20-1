@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DAFE1200 introduction to HTML</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+<h1>Æøå, ö and other special characters</h1>
+<p>With "meta characterset is UTF-8", all characters should display correctly. Else, there are ways around, for example with &-and a descriptor. For examle &aring; (&amp;aring;) will display 'å'.</p>
+<p>&#12411; (&amp;#12411;) will display 'ほ', and so on. These codes are online — search if needed.</p>
+<p>The "lesser-than/ greater-than" symbols that denote code, however, must always be written in code: &lt; — &amp; l t ; — and &gt; — &amp; g t ; — respectively.</p>
+
+<h1>Tables</h1>
+<table border="1px">
+<tr>
+  <td>This is a cell (table data)<br /> within a table row</td>
+  <td>Cell B, Row 1</td>
+</tr>
+<tr>
+  <td>Cell A, Row 2</td>
+  <td>Cell B, Row 2</td>
+</tr>
+</table>
+
+<h1>One more rather basic thing...</h1>
+<p>With the 'paragraph', extra        spaces
+
+
+
+and line-shifts are ignored.</p>
+
+<p>If you need to retain such formating, for example for lyrics, the simplest way is to use <code>&lt;pre&gt;</code>.</p>
+<pre><!-- pre wil become mono-space font per default; use CSS to change that -->
+  Du må ikke sitte trygt i ditt hjem
+  og si: Det er sørgelig, stakkars dem!
+  Du må ikke tåle så inderlig vel
+  den urett som ikke rammer dig selv!
+  Jeg roper med siste pust av min stemme:
+  Du har ikke lov til å gå der og glemme!
+  &mdash; Arnulf Øverland
+</pre>
+<p><code>&lt;pre&gt;</code> and <code>&lt;blockquote&gt;</code> do similar jobs. But as you can see, with 'blockquote' you loose the extra formating, <strong>and</strong> a citation is expected.</p>
+
+<blockquote cite="https://www.ordtak.no/sitat.php?id=5283">
+Du må ikke sitte trygt i ditt hjem
+   og si: Det er sørgelig, stakkars dem!
+   Du må ikke tåle så inderlig vel
+   den urett som ikke rammer dig selv!
+   Jeg roper med siste pust av min stemme:
+   Du har ikke lov til å gå der og glemme!
+   &mdash; Arnulf Øverland
+ </blockquote>
+</body>
+</html>
