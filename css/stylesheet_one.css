@@ -1,0 +1,57 @@
+body {
+  background-color:rgba(210,230,230, 1);
+    /* This is a comment in CSS */
+    /* https://www.w3schools.com/html/html_colors.asp About colors. */
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+h1 {
+  font-family: times, 'times new roman';
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+h2 {
+  font-family: times, 'times new roman';
+  font-size: 1.75em;
+  font-weight: normal;
+  margin-left: -20px;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size:1.1em;
+}
+
+p {
+  font-family: sans-serif; /* https://www.w3schools.com/css/css_font.asp */
+  font-size: 1em;
+}
+
+/* Plan: H1 = 2em, H2 = 1.75em, H3 = 1,2em, H4 = 1.1em */
+/* Some coders make comments inside the code (or at least we made such comments years ago when a lot was hand coded) */
+
+td, th {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.right {
+  text-align: right;
+}
+
+.ingress {
+  font-family: garamond, georgia, serif;
+  font-size: 1.1em;
+  font-style: italic;
+}
