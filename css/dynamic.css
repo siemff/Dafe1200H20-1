@@ -3,6 +3,22 @@ body {
   margin: 0px;
 }
 
+body {
+  background-image: url(../images/pus4h.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: url(../images/pus2h.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+  }
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -25,12 +41,17 @@ body {
 .col-small-60 {width: 60%;}
 .col-small-100 {width: 100%;}
 
-@media only screen and (min-width: 600px;) {
-  .col-tall-10 {width: 10%;}
-  .col-tall-20 {width: 20%;}
-  .col-tall-30 {width: 30%;}
-  .col-tall-40 {width: 40%;}
-  .col-tall-60 {width: 60%;}
-  .col-tall-70 {width: 70%;}
-  .col-tall-100 {width: 100%;}
+@media only screen and (min-width: 1000px) {
+.col-tall-10 {width: 10%;}
+.col-tall-20 {width: 20%;}
+.col-tall-30 {width: 30%;}
+.col-tall-40 {width: 40%;}
+.col-tall-60 {width: 60%;}
+.col-tall-70 {width: 70%;}
+.col-tall-100 {width: 100%;}
+}
+
+.margin-left {
+  margin-left: auto;
+  max-width: 400px;
 }

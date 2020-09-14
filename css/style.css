@@ -1,0 +1,19 @@
+body {
+  background-color: #dddddd;
+}
+
+h1 {
+  font-family: serif;
+}
+
+
+
+p {
+  background-color: white;
+  color:green;}
+
+/** CLASSES **/
+.toptxt {
+  background-color: black;
+  color: white;
+}
